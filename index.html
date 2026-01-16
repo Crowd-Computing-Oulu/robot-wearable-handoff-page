@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot-Wearable Conversation Hand-off for Navigation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Robot-Wearable Conversation Hand-off for Navigation</h1>
+            <div class="authors">
+                <a href="https://orcid.org/0009-0003-7299-9116" class="author-name" target="_blank">Dániel Szabó</a><sup>1</sup> <a href="mailto:daniel.szabo@oulu.fi" style="color: inherit; text-decoration: none;">✉️</a>, 
+                <a href="https://orcid.org/0000-0002-3929-199X" class="author-name" target="_blank">Aku Visuri</a><sup>1</sup>, 
+                <a href="https://orcid.org/0000-0002-7831-2632" class="author-name" target="_blank">Benjamin Tag</a><sup>2</sup>, 
+                <a href="https://orcid.org/0000-0002-9609-0965" class="author-name" target="_blank">Simo Hosio</a><sup>1</sup>
+            </div>
+            <div class="affiliations">
+                <sup>1</sup> <a href="https://www.oulu.fi" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px dotted #666;">University of Oulu</a><br>
+                <sup>2</sup> <a href="https://www.unsw.edu.au" target="_blank" style="color: inherit; text-decoration: none; border-bottom: 1px dotted #666;">The University of New South Wales</a>
+            </div>
+        </header>
+
+        <figure>
+            <img src="images/comic_horizontal.jpg" alt="Teaser image showing the conversation hand-off concept" class="teaser-img">
+            <figcaption>Figure 1: Usage of the conversation hand-off system presented as a storyboard.</figcaption>
+        </figure>
+
+        <section class="abstract">
+            <h2>Abstract</h2>
+            <p>Navigating large and complex indoor environments, such as universities, airports, and hospitals, can be cognitively demanding and requires attention and effort. While mobile applications provide convenient navigation support, they occupy the user's hands and visual attention, limiting natural interaction. In this paper, we explore <strong>conversation hand-off</strong> as a method for multi-device indoor navigation, where a Conversational Agent (CA) transitions seamlessly from a stationary social robot to a wearable device. We evaluated robot-only, wearable-only, and robot-to-wearable hand-off in a university campus setting using a within-subjects design with N=24 participants. We find that conversation hand-off is experienced as engaging, even though no performance benefits were observed, and most preferred using the wearable-only system. Our findings suggest that the design of such re-embodied assistants should maintain a shared voice and state across embodiments.</p>
+        </section>
+
+        <div class="links">
+            <span class="btn" style="background-color: #95a5a6; cursor: default;">Paper (Coming Soon)</span>
+        </div>
+
+        <section>
+            <h2>Introduction</h2>
+            <p>Indoor navigation aids are crucial for complex environments. We propose a "Hybrid Indoor Navigation System" where a Conversational Agent (CA) can hand-off an ongoing navigation session from a stationary social robot (Pepper) to a wearable device (Apple Watch). This allows users to start their journey with a social interaction and continue with a personal device on the go.</p>
+        </section>
+
+        <section>
+            <h2>Method</h2>
+            <p>We conducted a within-subjects user study (N=24) in a university campus setting. We compared three conditions:</p>
+            <ul>
+                <li><strong>Robot-Only:</strong> Stationary guidance.</li>
+                <li><strong>Wearable-Only:</strong> Apple Watch guidance.</li>
+                <li><strong>Hand-off:</strong> Starting with the robot, then transferring to the watch.</li>
+            </ul>
+            <figure>
+                <img src="images/experiment_photos.jpg" alt="Photos of the experiment setup">
+                <figcaption>The participant uses the robot (left) and the watch (middle) during the experiment.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/handoff_gui.jpg" alt="Hand-off GUI">
+                <figcaption>The interface for the conversation hand-off.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Results</h2>
+            <p><strong>Preference:</strong> 70.8% preferred Wearable-Only, 29.2% preferred Hand-off. No one preferred Robot-Only.</p>
+            <p><strong>Workload (NASA-TLX):</strong> Robot-Only had significantly higher mental demand than the other conditions. Hand-off was seen as engaging and fun ("teleporting assistant").</p>
+            <p><strong>Trust:</strong> There was no significant difference in trust between the conditions.</p>
+            <figure>
+                <img src="images/nasa-subscales.png" alt="NASA TLX Results">
+                <figcaption>NASA-TLX subscale results comparing the three conditions.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Conclusion</h2>
+            <p>We found that while the wearable-only system was favored for its convenience, the conversation hand-off was seen as engaging. Flexible triggers for transition and rapid hand-offs are key design considerations for future systems.</p>
+        </section>
+
+        <section>
+            <h2>Citation</h2>
+            <pre>@inproceedings{szabo2026handoff,
+  title={Robot-Wearable Conversation Hand-off for Navigation},
+  author={Szabó, Dániel and Visuri, Aku and Tag, Benjamin and Hosio, Simo},
+  booktitle={The Augmented Humans (AHs) International Conference 2026},
+  year={2026}
+}</pre>
+        </section>
+
+        <footer>
+            <hr>
+            <p style="text-align: center; margin-top: 20px; color: #888;">&copy; 2026 Dániel Szabó et al.</p>
+        </footer>
+    </div>
+</body>
+</html>
